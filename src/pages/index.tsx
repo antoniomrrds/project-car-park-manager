@@ -1,3 +1,7 @@
-export default function Home() {
-  return <h1>My page</h1>
+import { HomePage } from '@/containers'
+
+const Home = () => {
+  return <HomePage />
 }
+
+export default Home

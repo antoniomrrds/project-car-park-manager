@@ -1,7 +1,8 @@
 export const theme = {
   colors: {
-    primaryColor: ' #0E101C',
-    secondaryColor: '#9147ff',
+    primaryColor: ' #16151d',
+    secondaryColor: '#00c7d5',
+    freeSpeechRed: '#d50f00',
     white: '#ddd',
     dark: '#242824'
   },
@@ -14,5 +15,14 @@ export const theme = {
     xxlarge: '4.8rem',
     huge: '5.6rem',
     xhuge: '6.4rem'
+  },
+  mediaSizes: {
+    mobileS: '320px',
+    mobileM: '375px',
+    mobileL: '425px',
+    tablet: '768px',
+    laptop: '1024px',
+    laptopL: '1440px',
+    desktop: '2560px'
   }
 }

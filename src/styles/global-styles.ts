@@ -2,6 +2,6 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
   body{
-    background: #212121
+    background:${({ theme }) => theme.colors.primaryColor};
   }
 `
